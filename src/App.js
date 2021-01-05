@@ -4,7 +4,7 @@ import Portfolio from "./components/Portfolio.jsx"
 function App() {
   return (
     <div>
-    	<Portfolio />
+    <Portfolio/>
     </div>
   );
 }
