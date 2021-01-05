@@ -1,10 +1,10 @@
 import './App.css';
-import Portfolio from "./components/Portfolio.jsx"
+import Header from "./components/Banner.jsx"
 
 function App() {
   return (
     <div>
-    <Portfolio/>
+    <Header />
     </div>
   );
 }
