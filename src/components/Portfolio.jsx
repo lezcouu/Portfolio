@@ -4,7 +4,7 @@ const Portfolio = () => {
 	return (
 		<div>
 		<h1>
-			Hola mundo
+			Hola mundo soy pablo lezcano
 		</h1>			
 		</div>
 	)
