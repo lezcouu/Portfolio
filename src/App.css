@@ -47,3 +47,11 @@ body{
 	width: 1200px;
 	margin: 0 auto;
 }
+
+.row {
+	display: flex;
+	width: 100%;
+}
+.col-6 {
+	width: 50%;
+}
