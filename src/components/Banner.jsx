@@ -23,10 +23,10 @@ const Banner = () => {
 								<li><FaLinkedin /></li>
 							</ul>
 							<h1>
-								Yo soy Pablo Lezcano
+								Soy Pablo Lezcano
 							</h1>
 							<p>
-								Soy un desarrollador web con experiencia en diversos lenguajes, autodidacta y estoy buscando nuevos desafios
+								Un desarrollador web con experiencia en diversos lenguajes, autodidacta y en busqueda de nuevos desafios
 							</p>
 							</div>							
 						</div>
