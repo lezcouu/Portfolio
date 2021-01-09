@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
 	FaFacebookSquare,
 	FaYoutube,
@@ -10,6 +10,11 @@ import {
 import image from "../assets/caminando.png"
 
 const Banner = () => {
+	const [state] = useState({
+		title: "Soy Pablo Lezcano",
+		text: "Un desarrollador web con experiencia en diversos lenguajes, autodidacta y en busqueda de nuevos desafios",
+		imagen: image 
+	})
 	return (
 		<header className="header">
 			<div className="container">
@@ -25,10 +30,10 @@ const Banner = () => {
 								<li><FaLinkedin /></li>
 							</ul>
 							<h1>
-								Soy Pablo Lezcano
+								{state.title}
 							</h1>
 							<p>
-								Un desarrollador web con experiencia en diversos lenguajes, autodidacta y en busqueda de nuevos desafios
+								{state.text}
 							</p>
 							<div className="header_button">
 								<a href="" className="btn btn-outline">My Portfolio</a>
@@ -40,7 +45,7 @@ const Banner = () => {
 					</div>
 					<div className="col-6">
 						<div className="banner_img">
-							<img src={image} alt=""/>
+							<img src={state.imagen} alt=""/>
 						</div>
 					</div>
 				</div>				

@@ -13,6 +13,7 @@ body{
 	background: url("assets/saltodelangel.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow: hidden;
 }
 .navbar {
 	top: 0;
@@ -47,10 +48,17 @@ body{
 	width: 1200px;
 	margin: 0 auto;
 }
+.bgMain{
+	background: #1f2235;
+}
 
 .row {
 	display: flex;
 	width: 100%;
+	flex-wrap: wrap;
+}
+.col-4 {
+	width: 33.3333333333%;
 }
 .col-6 {
 	width: 50%;
@@ -112,4 +120,59 @@ body{
 .play {
 	font-size: 25px !important;
 	padding-top: 10px;
+}
+.banner_img {
+	padding: 0 30px;
+	margin-top: 100px;
+}
+/* Services */
+.services {
+	background: #1f2235;
+	padding: 100px 0;
+	color: #fff;
+}
+.common {
+	width: 33.3333333333%;
+	margin: 20px auto;
+	text-align: center;
+}
+.heading {
+	margin-bottom: 20px;
+	font-weight: 500;
+	color: #ff4a57;
+	font-size: 16px;
+}
+.mainHeader {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.mainContent {
+	font-size: 16px;
+	color: #dfdfdf;
+}
+.commonBorder {
+	background-color: #ff4a57;
+	height: 3px;
+	width: 120px;
+	margin: 30px auto;
+}
+.services_box {
+	padding: 40px;
+	background: #23263a;
+	color: #fff;
+	margin: 20px;
+}
+.commonIcons {
+	font-size: 40px;
+	color: #ff4a57;
+	margin-bottom: 15px;
+}
+.services_box-header {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.services_box-p {
+	font-size: 16px;
+	color: #dfdfdf;
 }

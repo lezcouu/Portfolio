@@ -1,4 +1,5 @@
 import React from 'react'
+import fenix from "../assets/fenix.jpeg"
 
 const Nav = () => {
 	return (
@@ -7,7 +8,7 @@ const Nav = () => {
 				<div className="navbar_container">
 				<ul className="navbar_left">
 					<div className="navbar_left-logo">
-						<img src="https://images.alphacoders.com/569/thumb-1920-569097.jpg" alt="" />
+						<img src={fenix} alt="" />
 					</div>
 				</ul>
 				<ul className="navbar_right">
