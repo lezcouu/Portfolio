@@ -110,5 +110,6 @@ body{
 	border-radius: 50px;
 }
 .play {
-	font-size: 25px;
+	font-size: 25px !important;
+	padding-top: 10px;
 }

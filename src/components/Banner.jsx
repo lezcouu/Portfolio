@@ -7,6 +7,7 @@ import {
 	FaGithub,
 	FaPlay
 } from "react-icons/fa"
+import image from "../assets/caminando.png"
 
 const Banner = () => {
 	return (
@@ -38,7 +39,9 @@ const Banner = () => {
 						</div>
 					</div>
 					<div className="col-6">
-
+						<div className="banner_img">
+							<img src={image} alt=""/>
+						</div>
 					</div>
 				</div>				
 			</div>			
