@@ -4,7 +4,8 @@ import {
 	FaYoutube,
 	FaInstagram,
 	FaLinkedin,
-	FaGithub
+	FaGithub,
+	FaPlay
 } from "react-icons/fa"
 
 const Banner = () => {
@@ -28,6 +29,11 @@ const Banner = () => {
 							<p>
 								Un desarrollador web con experiencia en diversos lenguajes, autodidacta y en busqueda de nuevos desafios
 							</p>
+							<div className="header_button">
+								<a href="" className="btn btn-outline">My Portfolio</a>
+								&nbsp;&nbsp;&nbsp;
+								<a href="" className="btn btn-smart"><FaPlay className="play" /></a>
+							</div>
 							</div>							
 						</div>
 					</div>
