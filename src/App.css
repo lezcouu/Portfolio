@@ -145,6 +145,7 @@ body{
 .mainHeader {
 	font-size: 32px;
 	margin-bottom: 20px;
+	color: #fff;
 }
 .mainContent {
 	font-size: 16px;
@@ -175,4 +176,9 @@ body{
 .services_box-p {
 	font-size: 16px;
 	color: #dfdfdf;
+}
+.about {
+	width: 100%;
+	background: #23263a;
+	padding: 100px 0;
 }

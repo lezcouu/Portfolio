@@ -75,20 +75,25 @@ const Service = () => {
                         <div className="commonBorder"></div>
                     </div>
                     <div className="row bgMain">
-                        <div className="col-4 bgMain">
+                        {state.map((elem, i) =>{
+                            return(
+                            <div key={i} className="col-4 bgMain">
                             <div className="services_box">
-                            <FaGithub className="commonIcons"/>
+                            <div className="commonIcons">
+                            {elem.icon} 
+                            </div>
                             <div className="services_box-header">
-                                Web Development
+                                {elem.heading}
                             </div>
                             <div className="services_box-p">
-                                Tengo conocimientos y experiencia certificada en Html, Css, Javascript y Postgresql.
+                                {elem.text}
                             </div>
                             </div>
-                        </div>
+                        </div>)
+                        })}                        
                     </div>
                 </div>
-                </div>            
+            </div>       
         </div>
     )
 }
