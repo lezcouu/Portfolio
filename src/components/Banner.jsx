@@ -34,7 +34,7 @@ const Banner = () => {
 								{state.text}
 							</p>
 							<div className="header_button">
-								<a href="../Pdf/David_Lezcano_CV.pdf" className="port">My Portfolio</a>
+								<a href="./portfolio/pdf" target="_blank" className="port"><button>My Curriculum</button></a>
 							</div>
 							</div>							
 						</div>
