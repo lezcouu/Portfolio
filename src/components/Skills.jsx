@@ -29,7 +29,6 @@ const Skills = () => {
                                 a los compañeros que me rodeaban los cuales sin lugar a dudas
                                 poseian un gran conocimiento.
                         </p>
-                        <a href="#">Leer mas</a>
                     </div>
                     <div className="column right">
                         <div className="bars">

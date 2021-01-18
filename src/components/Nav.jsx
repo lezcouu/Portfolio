@@ -35,8 +35,8 @@ const Nav = () => {
 						<li>
 							<a href="">Contacto</a>
 						</li>
-					</ul>):(
-					<ul className="navbar_right">
+					</ul>):("")}
+					<ul className="navbar_rightd">
 						<li>
 							<a href="">Principal</a>
 						</li>
@@ -59,7 +59,6 @@ const Nav = () => {
 							<a href="">Contacto</a>
 						</li>
 					</ul>
-					)}
 				</div>
 			</div>
 			<div className="toggle" onClick={() => setState(!state)}>

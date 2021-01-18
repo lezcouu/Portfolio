@@ -7,6 +7,7 @@ import {
     FaReact,
     FaVideo
 } from "react-icons/fa"
+import { Grid } from "@material-ui/core"
 
 const Service = () => {
     
@@ -59,42 +60,44 @@ const Service = () => {
         }
     ])
     return (
-        <div className="services">
-            <div className="container">
-                <div className="services_header">
-                    <div className="common">
-                        <h3 className="heading">
-                            {header.mainHeader}
-                        </h3>
-                        <h1 className="mainHeader">
-                            {header.subHeading}
-                        </h1>
-                        <p className="mainContent">
-                            {header.text}
-                        </p>
-                        <div className="commonBorder"></div>
+        <Grid container>
+            <div className="services">
+                <div className="container">
+                    <div className="services_header">
+                        <div className="common">
+                            <h3 className="heading">
+                                {header.mainHeader}
+                            </h3>
+                            <h1 className="mainHeader">
+                                {header.subHeading}
+                            </h1>
+                            <p className="mainContent">
+                                {header.text}
+                            </p>
+                            <div className="commonBorder"></div>
+                        </div>
+                        <div className="row bgMain">
+                            {state.map((elem, i) =>{
+                                return(
+                                <div key={i} className="col-4 bgMain">
+                                <div className="services_box">
+                                <div className="commonIcons">
+                                {elem.icon} 
+                                </div>
+                                <div className="services_box-header">
+                                    {elem.heading}
+                                </div>
+                                <div className="services_box-p">
+                                    {elem.text}
+                                </div>
+                                </div>
+                            </div>)
+                            })}                        
+                        </div>
                     </div>
-                    <div className="row bgMain">
-                        {state.map((elem, i) =>{
-                            return(
-                            <div key={i} className="col-4 bgMain">
-                            <div className="services_box">
-                            <div className="commonIcons">
-                            {elem.icon} 
-                            </div>
-                            <div className="services_box-header">
-                                {elem.heading}
-                            </div>
-                            <div className="services_box-p">
-                                {elem.text}
-                            </div>
-                            </div>
-                        </div>)
-                        })}                        
-                    </div>
-                </div>
-            </div>       
-        </div>
+                </div>       
+            </div>
+        </Grid>
     )
 }
 

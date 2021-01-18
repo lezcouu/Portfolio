@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const Prices = () => {
     const [header] = useState({
-        mainHeader:"-------------",
+        mainHeader:"Proyectos",
         subHeading: "Productos",
         text: "Puedes encontrar el precio de diferentes productos ya elaborados a disposición o tareas personalizadas, tambien podes alquilar servicios elaborados para que te generen la mayor ganancia E-commerce y Smartbyte, consultame"
     })

@@ -3,10 +3,10 @@ import {
 	FaYoutube,
 	FaInstagram,
 	FaLinkedin,
-	FaGithub,
-	FaPlay
+	FaGithub
 } from "react-icons/fa"
 import image from "../assets/caminando.png"
+import {Link} from "@material-ui/core"
 
 const Banner = () => {
 	const [state] = useState({
@@ -22,10 +22,10 @@ const Banner = () => {
 						<div className="header_content">
 							<div className="header_section">
 							<ul className="header_ul">
-								<li><FaYoutube /></li>
-								<li><FaInstagram /></li>
-								<li><FaGithub /></li>
-								<li><FaLinkedin /></li>
+								<Link href="https://www.youtube.com/channel/UCA3eO0-y0BUde1OpKap61vA" color="inherit"><li><FaYoutube /></li></Link>
+								<Link href="https://www.instagram.com/hey_coder/" color="inherit"><li><FaInstagram /></li></Link>
+								<Link href="https://github.com/lezcouu?tab=repositories" color="inherit"><li><FaGithub /></li></Link>
+								<Link href="https://www.linkedin.com/in/pablo-david-lezcano/" color="inherit"><li><FaLinkedin /></li></Link>
 							</ul>
 							<h1>
 								{state.title}
@@ -34,14 +34,14 @@ const Banner = () => {
 								{state.text}
 							</p>
 							<div className="header_button">
-								<a href="" className="btn btn-outline">My Portfolio</a>
+								<a href="../Pdf/David_Lezcano_CV.pdf" className="port">My Portfolio</a>
 							</div>
 							</div>							
 						</div>
 					</div>
 					<div className="col-6">
 						<div className="banner_img">
-							<img src={state.imagen} alt=""/>
+							<img src={image} alt=""/>
 						</div>
 					</div>
 				</div>				

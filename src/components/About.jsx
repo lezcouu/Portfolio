@@ -15,7 +15,7 @@ const About = () => {
 		{ id:1,  title:"Nombre", text:"Pablo Lezcano" },
 		{ id:2,  title:"Linkedin", text:"https://www.linkedin.com/in/pablo-david-lezcano/" },
 		{ id:2,  title:"Email", text:"lezcouu@gmail.com" },
-		{ id:2,  title:"Instagram", text:"https://www.instagram.com/hey_coder/" }
+		{ id:2,  title:"Instagram", text:"/hey_coder" }
 		])
 	return (
 		<div className="about">
@@ -48,7 +48,7 @@ const About = () => {
 					   Actualmente me encuentro en el desarrollo de una aplicacion para gestionar negocios.
 				   </div>
 				   <div className="info_contacts">
-					   <div className="row">
+					   <div className="rowa">
 						   {state.map((elem,i) => (
 							   <div key={i} className="col-6">
 							   <strong>{elem.title}</strong>

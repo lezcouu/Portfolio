@@ -16,6 +16,7 @@ body{
 	overflow: hidden;
 }
 .navbar {
+	padding: 5px 0;
 	top: 0;
 	width: 100%;
 	height: 100px;
@@ -38,6 +39,17 @@ body{
 	list-style-type: none;
 }
 .navbar_right li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 0 15px;
+}
+.navbar_rightd{
+	display: flex;
+	list-style-type: none;
+}
+.navbar_rightd li a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 18px;
@@ -115,6 +127,12 @@ body{
 	border-radius: 50px;
 	padding: 13px 40px;
 }
+.port{
+	display: inline;
+	border: 2px solid #ff4a57;
+	border-radius: 50px;
+	padding: 10px 30px;	
+}
 .btn-smart {
 	background: #ff4a57;
 	padding: 13px 25px;
@@ -125,11 +143,14 @@ body{
 	padding-top: 10px;
 }
 .banner_img {
-	padding: 0 30px;
+	padding: 0 20px;
 	margin-top: 100px;
+	overflow: hidden;
 }
 /* Services */
 .services {
+	display: flex;
+	width: 100%;
 	background: #1f2235;
 	padding: 100px 0;
 	color: #fff;
@@ -161,6 +182,7 @@ body{
 	margin: 30px auto;
 }
 .services_box {
+	width: 100%;
 	padding: 40px;
 	background: #23263a;
 	color: #fff;
@@ -188,6 +210,7 @@ body{
 	color: #dfdfdf;
 }
 .about {
+	display: flex;
 	width: 100%;
 	background: #23263a;
 	padding: 100px 0;
@@ -232,6 +255,7 @@ body{
 	margin: 10px 0;
 }
 .prices {
+	display: flex;
 	width: 100%;
 	padding: 100px 0;
 	background:#1f2235;
@@ -263,7 +287,7 @@ body{
 }
 .col-4{
 	margin: 10px 0;
-	width: 25%;
+	width: 46%;
 }
 .price ul li{
 	margin: 5px 0;
@@ -275,6 +299,7 @@ body{
 	margin-top: 40px;
 }
 .contact {
+	display: flex;
 	padding: 100px 0;
 	background: #23263a;
 }
@@ -324,7 +349,44 @@ body{
 	justify-content: center;
 	display: none;
 }
-@media(max-width: 770px){
+@media(max-width: 1200px){
+	.navbar_rightd{
+		display: flex;
+		list-style-type: none;
+		margin-right: 200px;
+	}
+	.navbar_rightd li a {
+		text-decoration: none;
+		
+		color: #fff;
+		font-size: 16px;
+		font-weight: 500;
+		padding: 0 10px;
+	}
+
+	.col-4 {
+		width: 50%;
+	}
+}
+@media(max-width: 1020px){
+	.navbar_rightd{
+		display: flex;
+		list-style-type: none;
+		margin-right: 400px;
+	}
+	.navbar_rightd li a {
+		text-decoration: none;
+		
+		color: #fff;
+		font-size: 16px;
+		font-weight: 500;
+		padding: 0 10px;
+	}
+}
+@media(max-width: 810px){
+	.navbar_rightd{
+		display: none;
+	}
 	.container{
 		width: 100%;
 		padding: 0 50px;
