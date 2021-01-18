@@ -34,7 +34,7 @@ const Banner = () => {
 								{state.text}
 							</p>
 							<div className="header_button">
-								<a href="https://www.mediafire.com/file/j9k54oiw3ph6yl7/David_Lezcano_CV.pdf/file" target="_blank" className="btn btn-outline"><Button style={{color:"#fff"}}>My Curriculum</Button></a>
+								<a href="https://www.mediafire.com/file/j9k54oiw3ph6yl7/David_Lezcano_CV.pdf/file" target="_blank" className="btn btn-outline"><Button style={{color:"#fff"}}>Descargar cv</Button></a>
 							</div>
 							</div>							
 						</div>
