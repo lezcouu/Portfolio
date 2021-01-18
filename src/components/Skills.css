@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&family=Ubuntu:wght@400;500;700&display=swap');
+.skills {
+    padding: 10px;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .title:after{
+    content: "conocimientos"
+}
+
+.skills .skills-content .column{
+    width: calc(50% - 10px);
+}
+
+.skills .skills-content .left .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+    text-align: justify;
+}
+.skills .skills-content .left a{
+    display:inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius:8px;
+    border: 2px solid crimson;
+    transition: all 0.5s ease;
+}
+.skills .skills-content .left a:hover{
+    color: #fff;
+    background: black;
+    border: 2px solid black
+}
+
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightblue;
+    position: relative
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+.skills .skills-content .right .autocad::before{
+    width: 70%;
+}
+
+.skills .skills-content .right .html::before{
+    width: 80%;
+}
+.skills .skills-content .right .css::before{
+    width: 70%;
+}
+.skills .skills-content .right .javascript::before{
+    width: 85%;
+}
+.skills .skills-content .right .sql::before{
+    width: 80%;
+}
+.skills .skills-content .right .mongodb::before{
+    width: 50%;
+}
+.skills .skills-content .right .firebase::before{
+    width: 50%;
+}
+.skills .skills-content .right .java::before{
+    width: 10%;
+}
+.skills .skills-content .right .office::before{
+    width: 80%;
+}
+
+@media (max-width:880px){
+    .skills .skills-content .column{
+        width: calc(100%);
+    }
+    .skills .skills-content .left a{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:590px){
+    .skills .skills-content .left .text{
+        font-size: 18px;
+    }
+}

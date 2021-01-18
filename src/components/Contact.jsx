@@ -18,23 +18,23 @@ const Contact = () => {
 	return (
 		<div className="contact">
 			<div className="container">
-				<div className="aboutSection">
-					<div className="aboutSection-logo">
-						<img src={fenix} alt={fenix}/>
-						<div className="row">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora earum eveniet nulla consequatur, perspiciatis sunt vero aperiam laudantium quibusdam enim.
-							<div className="aboutCircles">
-								<ul>
-									<FaFacebookSquare />
-									<FaYoutube />
-									<FaInstagram />
-									<FaLinkedin />
-									<FaGithub />
-									<FaPlay />
-								</ul>
+				<div className="contactSection">
+					<div className="row justifyConter">
+						<div className="col-6">
+							<div className="contactSection-logo">
+							<img src={fenix} alt={fenix}/>
 							</div>
+							<p>tambien podes contactar por mis redes sociales</p>
+							<ul className="contactCircles">								
+								<li><FaFacebookSquare /></li>
+								<li><FaYoutube /></li>
+								<li><FaInstagram /></li>
+								<li><FaLinkedin /></li>
+								<li><FaGithub /></li>
+								<li><FaPlay /></li>								
+							</ul>
 						</div>
-					</div>
+					</div>					
 				</div>
 			</div>
 		</div>

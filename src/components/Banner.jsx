@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import {
-	FaFacebookSquare,
 	FaYoutube,
 	FaInstagram,
 	FaLinkedin,
@@ -23,7 +22,6 @@ const Banner = () => {
 						<div className="header_content">
 							<div className="header_section">
 							<ul className="header_ul">
-								<li><FaFacebookSquare /></li>
 								<li><FaYoutube /></li>
 								<li><FaInstagram /></li>
 								<li><FaGithub /></li>
@@ -37,8 +35,6 @@ const Banner = () => {
 							</p>
 							<div className="header_button">
 								<a href="" className="btn btn-outline">My Portfolio</a>
-								&nbsp;&nbsp;&nbsp;
-								<a href="" className="btn btn-smart"><FaPlay className="play" /></a>
 							</div>
 							</div>							
 						</div>

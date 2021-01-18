@@ -19,40 +19,40 @@ const Service = () => {
     const [state] = useState([
         {
             id: 1,
-            icon:'FaGithub', 
+            icon: <FaGithub />, 
             heading: 'Desarrollo web', 
             text: 'Tengo conocimientos y experiencia certificada en Html, Css, Javascript y Postgresql.'
         },
         {
             id: 2,
-            icon:'FaBrush', 
+            icon: <FaBrush />, 
             heading: 'UX', 
             text: 'Si no sabes como llegar al usuario, cuento con experiencia para hacer una app de impacto.'
         },
         {
             id: 3,
-            icon:'FaMedapps', 
+            icon: <FaMedapps />, 
             heading: 'Soluciones', 
             text: 'Si tenes un problema, tengo un equipo apto para idear soluciones, Desarrollo de software, \
             Electricidad, Plomeria, Mecanica Ligera, Liderazgo'
         },
         {
             id: 4,
-            icon:'FaCoins', 
+            icon: <FaCoins/>, 
             heading: 'Soluciones', 
             text: 'Desarrolle aplicaciones y tengo la experiencia que necesitas en bases de datos, especialmente \
             en Sql.'
         },        
         {
             id: 5,
-            icon:'FaReact', 
+            icon: <FaReact />, 
             heading: 'React', 
             text: 'No solo Reactjs sino que tambien pude adquirir experiencia trabajando con React Native, por \
             el momento usando Expo.'
         },
         {
             id: 6,
-            icon:'FaVideo', 
+            icon: <FaVideo />, 
             heading: 'Ediciones', 
             text: 'Tambien cuento con un grupo especializado en edición de videos e imagenes, queres un modelo pero \
             no sabes como hacerlo, lo solucionamos.'
