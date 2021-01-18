@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d2781044.chunk.css",
-    "main.js": "/portfolio/static/js/main.0c4dfe0b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0c4dfe0b.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.586205a8.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.586205a8.js.map",
-    "static/js/2.a5eae98c.chunk.js": "/portfolio/static/js/2.a5eae98c.chunk.js",
-    "static/js/2.a5eae98c.chunk.js.map": "/portfolio/static/js/2.a5eae98c.chunk.js.map",
-    "static/js/3.f5654d87.chunk.js": "/portfolio/static/js/3.f5654d87.chunk.js",
-    "static/js/3.f5654d87.chunk.js.map": "/portfolio/static/js/3.f5654d87.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f0d16d16.chunk.css",
+    "main.js": "/portfolio/static/js/main.415c56f9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.415c56f9.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.1b6f7ef9.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1b6f7ef9.js.map",
+    "static/js/2.52d762ce.chunk.js": "/portfolio/static/js/2.52d762ce.chunk.js",
+    "static/js/2.52d762ce.chunk.js.map": "/portfolio/static/js/2.52d762ce.chunk.js.map",
+    "static/js/3.b9652343.chunk.js": "/portfolio/static/js/3.b9652343.chunk.js",
+    "static/js/3.b9652343.chunk.js.map": "/portfolio/static/js/3.b9652343.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.d2781044.chunk.css.map": "/portfolio/static/css/main.d2781044.chunk.css.map",
-    "static/js/2.a5eae98c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a5eae98c.chunk.js.LICENSE.txt",
+    "static/css/main.f0d16d16.chunk.css.map": "/portfolio/static/css/main.f0d16d16.chunk.css.map",
+    "static/js/2.52d762ce.chunk.js.LICENSE.txt": "/portfolio/static/js/2.52d762ce.chunk.js.LICENSE.txt",
+    "static/media/David_Lezcano_CV.2beba13c.pdf": "/portfolio/static/media/David_Lezcano_CV.2beba13c.pdf",
     "static/media/caminando.9ca0c96f.png": "/portfolio/static/media/caminando.9ca0c96f.png",
     "static/media/Home.css": "/portfolio/static/media/saltodelangel.bbb64274.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.586205a8.js",
-    "static/js/2.a5eae98c.chunk.js",
-    "static/css/main.d2781044.chunk.css",
-    "static/js/main.0c4dfe0b.chunk.js"
+    "static/js/runtime-main.1b6f7ef9.js",
+    "static/js/2.52d762ce.chunk.js",
+    "static/css/main.f0d16d16.chunk.css",
+    "static/js/main.415c56f9.chunk.js"
   ]
 }
