@@ -40,14 +40,14 @@ const Service = () => {
         {
             id: 4,
             icon: <FaCoins/>, 
-            heading: 'Soluciones', 
-            text: 'Desarrolle aplicaciones y tengo la experiencia que necesitas en bases de datos, especialmente \
+            heading: 'Bases de datos', 
+            text: 'Desarrolle aplicaciones y tengo la experiencia que necesitas en bases de datos con mongodb, firebase, especialmente \
             en Sql.'
         },        
         {
             id: 5,
             icon: <FaReact />, 
-            heading: 'React', 
+            heading: 'Reactjs, React Native con expo', 
             text: 'No solo Reactjs sino que tambien pude adquirir experiencia trabajando con React Native, por \
             el momento usando Expo.'
         },

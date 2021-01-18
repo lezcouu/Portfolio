@@ -7,6 +7,9 @@
   body{
     font-family:"Poppins", sans-serif;
   }
+  html{
+    scroll-behavior: smooth;
+}
   .header {
       width: 100%;
       height: 100vh;
@@ -126,6 +129,10 @@
       border: 2px solid #ff4a57;
       border-radius: 50px;
       padding: 13px 40px;
+      transition: all 0.5s ease;
+  }
+  .btn-outline:hover{
+      background: #111
   }
   .btn-smart {
       background: #ff4a57;
@@ -210,11 +217,10 @@
       padding: 100px 0;
   }
   .about_img {
-      padding: 30px;
+      padding: 40px;
   }
   .about_img img {
       width: 300px;
-      height: 400px;
   }
   .h-650 {
       height: 650px;
@@ -224,6 +230,19 @@
   }
   .about_info{
       color:#fff;
+  }
+  .git{
+    display:flex;
+    font-size: 70px;
+    margin-top: 1%;
+    color: #fff;
+    margin-Left: 20%;
+    transition: all 0.5s linear;
+  }
+  .git:hover{
+    transform: scale(1.2);
+    color: #111;
+    background: #fff
   }
   .about_info h1{
       margin-bottom: 30px;

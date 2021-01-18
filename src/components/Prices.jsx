@@ -64,7 +64,7 @@ const Prices = () => {
                                         <li>{price.msg3}</li>
                                     </ul>
                                     <div className="price_btn">
-                                        <a href="http://smartbyte.ml/" className="btn btn-outline">Contactar</a>
+                                        <a href="http://smartbyte.ml/" className="btn btn-outline">Consultar</a>
                                     </div>
                                 </div>
                             </div>                            

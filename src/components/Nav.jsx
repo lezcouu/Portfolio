@@ -15,48 +15,42 @@ const Nav = () => {
 					{state ? (
 					<ul className="navbar_right">
 						<li>
-							<a href="">Principal</a>
+							<a href="#Banner">Principal</a>
 						</li>
 						<li>
-							<a href="">Servicios</a>
+							<a href="#Services">Servicios</a>
 						</li>
 						<li>
-							<a href="">Acerca de mi</a>
+							<a href="#About">Acerca de mi</a>
 						</li>
 						<li>
-							<a href="">Habilidades</a>
+							<a href="#Skills">Habilidades</a>
 						</li>
 						<li>
-							<a href="">Portfolio</a>
+							<a href="#Prices">Productos</a>
 						</li>
 						<li>
-							<a href="">Blog</a>
-						</li>
-						<li>
-							<a href="">Contacto</a>
+							<a href="#Contact">Redes</a>
 						</li>
 					</ul>):("")}
 					<ul className="navbar_rightd">
 						<li>
-							<a href="">Principal</a>
+							<a href="#Banner">Principal</a>
 						</li>
 						<li>
-							<a href="">Servicios</a>
+							<a href="#Services">Servicios</a>
 						</li>
 						<li>
-							<a href="">Acerca de mi</a>
+							<a href="#About">Acerca de mi</a>
 						</li>
 						<li>
-							<a href="">Habilidades</a>
+							<a href="#Skills">Habilidades</a>
 						</li>
 						<li>
-							<a href="">Portfolio</a>
+							<a href="#Prices">Productos</a>
 						</li>
 						<li>
-							<a href="">Blog</a>
-						</li>
-						<li>
-							<a href="">Contacto</a>
+							<a href="#Contact">Redes</a>
 						</li>
 					</ul>
 				</div>

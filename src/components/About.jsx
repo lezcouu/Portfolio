@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
-import caminando from "../assets/caminando.png"
+import Emoticon from "../assets/emoticon.png"
+import { Link } from "@material-ui/core"
+import {
+	FaGithubSquare
+} from "react-icons/fa"
 
 const About = () => {
 	const [ header ] = useState(
@@ -8,7 +12,7 @@ const About = () => {
 			text: "Soy de caballito y tengo 29 años, \
 			estoy en la busqueda de nuevos desafios en\
 			 el mundo It, soy una persona responsable que\
-			  sabe trabajar bajo presion y autodidacta con \
+			  sabe trabajar bajo presion, en equipos y autodidacta con \
 			  diversas experiencias y conocimiento de tecnologias."
 		})
 	const [ state ] = useState([
@@ -33,19 +37,26 @@ const About = () => {
 	           <div className="col-6">	
 			   <div className="about_img">
 				   <img 
-					src={caminando} 
-					alt={caminando}
+					src={Emoticon} 
+					alt=""
 					/>
 			   </div>
 	           </div>
 	           <div className="col-6">	
 			   <div className="about_info">
-				   <h1> Hola!</h1>
+				   <h1> Aqui estoy!</h1>
 				   <div className="about_info-p1">
-					   Soy de caballito Caba y tengo 29 me gustaria poder encontrar nuevos desafios.
+					   Hace ya un año me encuentro desarrollando Freelance.
 				   </div>
 				   <div className="about_info-p2">
-					   Actualmente me encuentro en el desarrollo de una aplicacion para gestionar negocios.
+					   Co-Founder Start-up TecnoByte
+				   </div>
+				   <div className="about_info-p2">
+					   Podes contactarte conmigo visitando nuestra propia pagina web. click en 
+					   <Link color="inherit" href="http://smartbyte.ml/">Smartbyte</Link>
+				   </div>
+				   <div className="about_info-p2">
+					   <Link color="inherit" href="http://smartbyte.ml/">Smartbyte</Link>
 				   </div>
 				   <div className="info_contacts">
 					   <div className="rowa">
@@ -55,6 +66,10 @@ const About = () => {
 							   <p>{elem.text}</p>
 						   </div>
 						   ))}
+					   </div>
+					   <div className="about_info-p2"style={{marginTop:"3%"}}>
+						   Me gustaria que puedas proyectos haz click en el gatito
+						   <Link href="https://github.com/lezcouu?tab=repositories"><FaGithubSquare className="git" /></Link>
 					   </div>
 				   </div>
 				   </div>	           

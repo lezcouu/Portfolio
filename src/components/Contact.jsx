@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import fenix from "../assets/fenix.jpeg"
 import {
-	FaFacebookSquare,
 	FaYoutube,
 	FaInstagram,
 	FaLinkedin,
-	FaGithub,
-	FaPlay
+	FaGithub
 } from "react-icons/fa"
+import { Link } from "@material-ui/core"
 
 const Contact = () => {
 	const [header] = useState({
@@ -22,16 +21,15 @@ const Contact = () => {
 					<div className="row justifyConter">
 						<div className="col-6">
 							<div className="contactSection-logo">
-							<img src={fenix} alt={fenix}/>
+							<img style={{borderRadius:"100%"}} src={fenix} alt={fenix}/>
 							</div>
-							<p>tambien podes contactar por mis redes sociales</p>
+							<p>Siempre podemos conectarnos por las redes sociales</p>
+							<p>Click en cualquier icono</p>
 							<ul className="contactCircles">								
-								<li><FaFacebookSquare /></li>
-								<li><FaYoutube /></li>
-								<li><FaInstagram /></li>
-								<li><FaLinkedin /></li>
-								<li><FaGithub /></li>
-								<li><FaPlay /></li>								
+							<Link href="https://www.youtube.com/channel/UCA3eO0-y0BUde1OpKap61vA" color="inherit"><li><FaYoutube /></li></Link>
+								<Link href="https://www.instagram.com/hey_coder/" color="inherit"><li><FaInstagram /></li></Link>
+								<Link href="https://github.com/lezcouu?tab=repositories" color="inherit"><li><FaGithub /></li></Link>
+								<Link href="https://www.linkedin.com/in/pablo-david-lezcano/" color="inherit"><li><FaLinkedin /></li></Link>							
 							</ul>
 						</div>
 					</div>					

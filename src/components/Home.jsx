@@ -11,13 +11,27 @@ import Skills from './Skills';
 const Home = () => {
     return (
         <div>
+            <section id="Banner">
             <Banner />
+            </section >
+            <section >
             <Nav />
+            </section>
+            <section id="Services">
             <Services />
+            </section>
+            <section id="About">
             <About />
+            </section>
+            <section id="Skills">
             <Skills />
+            </section>
+            <section id="Prices">
             <Prices />
+            </section>
+            <section id="Contact">
             <Contact />            
+            </section>
         </div>
     )
 }
