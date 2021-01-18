@@ -5,9 +5,11 @@ import {BrowserRouter, Switch, Route} from "react-router-dom"
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
