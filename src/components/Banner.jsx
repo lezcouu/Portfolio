@@ -6,7 +6,7 @@ import {
 	FaGithub
 } from "react-icons/fa"
 import image from "../assets/caminando.png"
-import {Link} from "@material-ui/core"
+import {Link, Button} from "@material-ui/core"
 
 const Banner = () => {
 	const [state] = useState({
@@ -34,7 +34,7 @@ const Banner = () => {
 								{state.text}
 							</p>
 							<div className="header_button">
-								<a href="./portfolio/pdf" target="_blank" className="port"><button>My Curriculum</button></a>
+								<a href="./portfolio/pdf" target="_blank" className="btn btn-outline"><Button style={{color:"#fff"}}>My Curriculum</Button></a>
 							</div>
 							</div>							
 						</div>
