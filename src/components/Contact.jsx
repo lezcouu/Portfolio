@@ -12,7 +12,7 @@ const Contact = () => {
 	const [header] = useState({
         mainHeader:"PLANES",
         subHeading: "Precios",
-        text: "Puedes encontrar el precio de diferentes productos ya elaborados a disposición o tareas personalizadas, tambien podes alquilar servicios elaborados para que te generen la mayor ganancia E-commerce y Smartbyte, consultame"
+        text: "Puedes encontrar el precio de diferentes productos ya elaborados a disposición o tareas personalizadas, tambien podes alquilar servicios elaborados para que te generen la mayor ganancia E-commerce y Smartbyte, consultame."
     })
 	return (
 		<div className="contact">
